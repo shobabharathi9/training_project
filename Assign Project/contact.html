@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CURD OPERATION USING JS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://kit.fontawesome.com/bb82e2ab83.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="css/curd.css" />
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse" style="border-radius: 0;">
+    <div class="container">
+      <div class="navbar-header" style="margin-bottom: 15px;">
+        <h3 style="color: #fff;">CURD OPERATION</h3>
+      </div>
+      
+      <ul class="nav navbar-nav navbar-right" style="margin-top: 15px;">
+        <button type="button" class="btn btn-success" onclick="modal()" style="font-size: 18px;">
+          <i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Add New Model </button>
+      </ul>
+    </div>
+  </nav>
+
+   <div class="container d-flex">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+            <th>id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Select Any Book</th>
+            <th>Message</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="table_dta">   
+          
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container">
+      <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h2 class="modal-title text-center" id="exampleModalLabel">User Data Form</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form role="form" autocomplete="off"  id="form">
+                  <div class="form-group">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="form-group"> <label for="form_name">Firstname *</label> 
+                                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" data-error="Firstname is required."> </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group"> <label for="form_lastname">Lastname </label> 
+                                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" data-error="Lastname is required."> </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="form-group"> <label for="form_email">Email *</label> 
+                                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" data-error="Valid email is required."> </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group"> <label for="form_need">Please specify your need *</label> 
+                                  <select id="form_need" name="need" class="form-control" data-error="Please specify your need.">
+                                      <option value="" selected disabled>--Select Your Issue--</option>
+                                      <option>Request Invoice for order</option>
+                                      <option>Request order status</option>
+                                      <option>Haven't received cashback yet</option>
+                                      <option>Other</option>
+                                  </select> </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="form-group"> <label for="form_message">Message *</label> 
+                                  <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4"  data-error="Please, leave us a message."></textarea> </div>                       
+                          </div>
+                          <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block" value="Send Message"> </div>
+                      </div>
+                  </div>
+                </form>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+  
+    </div>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+</body>

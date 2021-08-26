@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+  }
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff ;
+    background-color: #f4511e;
+    height: 100px;
+    padding:20px;
+  }
+ 
+
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"> <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></a>
+      <a class="navbar-brand" href="#myPage"> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></a>
+      <a class="navbar-brand" href="#myPage"> <span class="glyphicon glyphicon-earphone" aria-hidden="true">&nbsp;+91-998899443322</span></span></a>
+     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Malad West</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-tasks"></span> Track Order</a></li>                      
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up | Login</a></li>   
+      </ul>
+    </div>
+  </div>
+</nav>
+<nav style="height: 60px;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Brillio</a>
+      </div>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Cart</a></li>
+      </ul>
+    </div>
+    <div class="container-fluid">
+        <div style="margin-top: 10px; color:white">
+    </div>
+    </div>
+  </nav>
+  <nav style="height: 60px;">
+    <div class="container-fluid">
+        <div class="navbar-header">      
+            <a class="glyphicon glyphicon-align-left navbar-brand">&nbsp;Portfolio</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav" style="margin-top: 5px;">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Category</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+ 
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+    <div class="bg-image" style="
+    background-image: url('imges/2.jpg');
+    height: 60vh;
+    "></div>
+    <h2>FRUITS</h2>
+    <BR><BR>
+        <div class="row slideanim">
+            <div class="col-sm-3">
+              <img src="imges/13.jpg" style="width: 200px;" />
+              <h4>MANGO</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="imges/13.jpg" style="width: 200px;" />
+                <h4>MANGO</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="imges/13.jpg" style="width: 200px;" />
+                <h4>MANGO</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="imges/13.jpg" style="width: 200px;" />
+                <h4>MANGO</h4>
+            </div>
+          </div>
+          <h2>VEGITABLES</h2>
+    <BR><BR>
+        <div class="row slideanim">
+            <div class="col-sm-3">
+              <img src="imges/download.jfif" style="width: 200px;" />
+              <h4>VEGGIES</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="imges/download.jfif" style="width: 200px;" />
+                <h4>VEGGIES</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="imges/download.jfif" style="width: 200px;" />
+                <h4>VEGGIES</h4>
+            </div>
+            <div class="col-sm-3">
+                <img src="imges/download.jfif" style="width: 200px;" />
+                <h4>VEGGIES</h4>
+            </div>
+        </div>
+  <h2>SERVICES</h2>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>POWER</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>LOVE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>JOB DONE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>GREEN</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>CERTIFIED</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4 style="color:#303030;">HARD WORK</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2><br>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="imges/paris.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Paris</strong></p>
+        <p>Yes, we built Paris</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="imges/newyork.jpg" alt="New York" width="400" height="300">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="imges/sanfran.jpg" alt="San Francisco" width="400" height="300">
+        <p><strong>San Francisco</strong></p>
+        <p>Yes, San Fran is ours</p>
+      </div>
+    </div>
+  </div><br>
+  </div>
+  
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Pricing</h2>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Basic</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>20</strong> Lorem</p>
+          <p><strong>15</strong> Ipsum</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$19</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Pro</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>50</strong> Lorem</p>
+          <p><strong>25</strong> Ipsum</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$29</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Premium</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>100</strong> Lorem</p>
+          <p><strong>50</strong> Ipsum</p>
+        <div class="panel-footer">
+          <h3>$49</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+</div>
+<div id="pricing" class="container-fluid">
+    <div class="text-center">
+      <h2>VIDEOS</h2>
+    </div>
+    <div class="row slideanim">
+      <div class="col-sm-6 col-xs-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe>
+    </iframe>
+      </div>     
+      <div class="col-sm-6 col-xs-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe>
+      </iframe>
+      </div>       
+    
+  </div>
+  </div>
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="maps" class="container-fluid">
+
+  <div class="row">
+    <div class="col-sm-7">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30604.885170185844!2d80.57717299999999!3d16.495241299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1629048002608!5m2!1sen!2sin" 
+width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="col-sm-5 slideanim" style="padding: 120px;">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Image of location/map -->
+<footer class="text-center">
+  <h3>Online Store Copyright</h3>
+</footer>
+
+</body>
+</html>

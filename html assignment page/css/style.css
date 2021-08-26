@@ -1,0 +1,110 @@
+.header{
+    background-color: rgb(117, 199, 130);
+    height: 15vh;
+    border-bottom: 2px solid rgb(223, 98, 15);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    //margin: -11px;
+}
+.company-logo{
+    height: 12vh;
+}
+
+.nav-bar{
+    margin-left: 10vw;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    display: inline;
+    padding: 1em;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul li a:hover{
+    color: rgb(86, 255, 80);
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+}
+
+button{
+    background: coral;
+    color: white;
+    border: 2px solid white;
+    padding: 1em;
+    width: 10vw;
+    border-radius: 10px;
+}
+
+button:hover{
+    background:rgb(168, 141, 141);
+    color: coral;
+    border: 2px solid coral;
+    padding: 1em;
+    width: 10vw;
+    border-radius: 10px;
+}
+/*header formatting section ends here */
+/*main section formatting starts here*/
+.nav-container{
+    background-image: url('/images/Image1.jpg');
+    height:70vh;
+    text-align: center;
+}
+.nav-container h1{
+    margin: 0em;
+    padding-top: 20vh;
+    font-size: 5em;
+}
+.paper-section{
+    background-color: rgb(76, 187, 214);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+}
+
+.paper-section h2{
+    text-align: center;
+}
+
+.paper-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.card img{
+    height: 35vh;
+    width:20vw;
+}
+
+.layout{
+    background-color: white;
+    text-align: center;
+    height: 65vh;
+    width:20vw;
+    padding: 1em;
+    box-shadow: 5px 5px 30px rgb(20, 175, 136); /*Paper layout projection*/
+}
+footer{
+    background-color: rgb(117, 199, 130);
+    height: 15vh;
+    text-align: center;
+    border: 2px solid rgb(223, 98, 15);
+    margin: 0;
+}
+
+footer h2{
+    padding-top: 1em;
+}
